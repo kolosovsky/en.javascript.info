@@ -330,5 +330,5 @@ CSS custom properties pierce through shadow DOM. They are used as "hooks" to sty
 
 1. The component uses a custom CSS property to style key elements, such as `var(--component-name-title, <default value>)`.
 2. Component author publishes these properties for developers, they are same important as other public component methods.
-3. When a developer wants to style a title, they assign `--component-name-title` CSS property for the shadow host or above.
+3. When developers want to style a title, they assign `--component-name-title` CSS property for the shadow host or above.
 4. Profit!
